@@ -1,8 +1,12 @@
 ---
 title: javascript中的深拷贝的方式总结
+date: 2021-02-01 21:26:09
+tags: tags
+categories: 前端
+description: ''
 ---
-@[TOC](javascript中的深拷贝的方式总结)
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
+# javascript中的深拷贝的方式总结
+<!--more-->
 
 # 前言
 
@@ -13,7 +17,9 @@ title: javascript中的深拷贝的方式总结
 ## 方法一：第一个参数是拷贝后数据的存储对象，第二个时候拷贝的对象
 ## 思路：
 利用for in 把对象或数组中的值取出来，判断类型后赋值或递归
+
 ```javascript
+
  function DeepReproduce(reproduce_obj, obj) { //对对象进行复制
         if (obj && typeof obj == "object") { //传入的不能是null 和 function   
             for (var k in obj) {
