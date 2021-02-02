@@ -1,11 +1,12 @@
 ---
 title: javascript中的深拷贝的方式总结
-date: 2021-02-01 21:26:09
-tags: tags
+date: 2021-01-01 21:26:09
+tags: [javascript,前端]
 categories: 前端
 description: ''
+password: 19981105ykw
 ---
-# javascript中的深拷贝的方式总结
+## javascript中的深拷贝的方式总结
 <!--more-->
 
 # 前言
